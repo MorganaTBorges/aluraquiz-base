@@ -4,7 +4,8 @@ import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-import QuizBackground from '../src/components/QuizBackground'
+import QuizBackground from '../src/components/QuizBackground';
+import Head from '../src/components/Head';
 
 // const BackgroundImage = styled.div `
 //   background-image: url(${db.bg});
@@ -23,7 +24,6 @@ export const QuizContainer = styled.div `
     padding: 15px;
   }
 `;
-
 
 export default function Home() {
   return (
